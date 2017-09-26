@@ -1,0 +1,61 @@
+a.navbar-brand
+{
+	 font-size: 216%;
+	 font-weight: bold;
+	 background-color: white;
+	 color: black;
+}
+nav.navbar 
+{
+	border: none;
+	background-color: white;
+}
+div.cart
+{
+	border-style: dashed;
+	border-color: #dfdfdf;
+
+}
+button.btn
+{
+	background-color: #b8b8b8;
+}
+ul.list
+{
+	padding: 0px 20px 0px 0px;
+}
+
+
+p.brand 
+{
+	font-family: satisfy ;
+}
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   color: yellow;
+}
+div.button {
+  position: absolute;
+  width: 500px;
+  left:0;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+button.cart 
+{
+	background-color: white;
+	border: none;
+}
